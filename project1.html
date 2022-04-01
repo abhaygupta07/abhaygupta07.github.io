@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Abhay Fitness</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+            font-family: 'Baloo Bhai 2', cursive;
+            color: black;
+            margin: 0px;
+            padding: 0px;
+            background: url('jim.jpg');
+            background-size: cover;
+        }
+        .left{
+            display: inline-block;
+           /* border:2px solid rgb(154, 112, 112);*/
+            position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        .left div{
+            color: white;
+            line-height:  19px;
+        }
+        .a{
+            padding: 20 px;
+        }
+        .mid{
+            display: block;
+            width:50%;
+            margin: 20px auto; 
+
+           /* border:2px solid rgb(225, 143, 143);*/
+
+
+        }
+        .right{
+            position:absolute;
+            right: 34px;
+            top:20px;
+            display: inline-block;
+           /* border:2px solid rgb(77, 52, 52);*/
+            
+
+        }
+        .navbar{
+            display: inline-block;
+            
+        }
+        .navbar li{
+            color:white;
+            display: inline-block;
+            
+            
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding: 34px 23px; 
+        }  
+        .navbar li a:hover, .navbar li a.active{
+            text-decoration: underline;
+            color: grey;
+        }       
+        .btn{
+            font-family: 'Baloo Bhai 2', cursive;
+            margin: 0px 9px;
+            background-color: black;
+            color:white;
+            padding: 3px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+             
+        }
+        .btn:hover{
+            background-color: rgb(179, 179, 168);
+        }
+        .container{
+            color:white;
+            border: 2px solid white;
+            margin: 75px 50px;
+            padding: 25px;
+            width: 36%;
+            border-radius: 20px;
+            float:right;
+            height: 300px;
+            
+        }
+        .from-group input{
+            font-family: 'Baloo Bhai 2', cursive;
+            
+            text-align: center;
+            display: block;
+            width: 300px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 13px;
+            border-radius: 8px;
+
+        }
+        .container h2{
+            text-align: center;
+        }
+        .container button{
+            display:block;
+            width: 300px;
+            margin: 20px auto;
+        }
+    </style>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header class="header">
+            <!--left box for logo-->
+            <div class="left">
+                <img src="C:\Users\lenovo\OneDrive\Desktop\jimlogo.JPG" height="50px" width="100px" style="border-image-slice": 70%;>
+                <div>Abhay Fitness</div>
+
+            </div>
+            <!--mid box for navbar-->
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#"> Fitness Calculator</a></li>
+                    <li><a href="#"> Contact Us</a></li>
+                    
+
+                </ul>
+
+            </div>
+            <!--right box for buttons -->
+            <div class="right">
+                <button class="btn">Call Us Now</button>
+                <button class="btn">Email Us</button>
+
+            </div>
+        </header>
+
+        <div class="container">
+            <h2>Join the best gym of Patna now</h1>
+                <from action="noaction.php">
+                    <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Name">
+                    </div>
+
+                    <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Age">
+                    </div>
+
+                    <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Gender">
+                    </div>
+
+                   <!-- <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Locality">
+                    </div> -->
+
+                    <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Phone Number">
+                    </div>
+
+                    <div class="from-group">
+                        <input type="text" name "" placeholder="Enter your Email id">
+                    </div>
+                    <button class="btn">Submit</button>
+                </from>
+
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
